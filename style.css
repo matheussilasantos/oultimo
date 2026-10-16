@@ -3,15 +3,41 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 600px;
+    width: 100%;
 }
 
 .meta{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 15px;
+    color: #402b30
 }
 
 img{
     width: 200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 25px;
+}
+
+.meta:hover{
+    transition: .7s;
+    transform: scale(2);
+}
+
+body{
+    background-color: #b3aca4;
+}
+
+h1{
+    color: #402b30;
+}
+
+h2{
+    width: 350px;
+}
+
+p{
+    width: 400px;
 }
