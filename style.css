@@ -35,7 +35,7 @@ img{
 }
 
 body{
-    background-image: url(\https://acdn-us.mitiendanube.com/stores/001/776/325/products/papel-de-parede-non-woven-textura-desgastada-off-white1-d14bfb3a0de6beb6fc16778528871675-1024-1024.webp);
+    background-image: url("https://acdn-us.mitiendanube.com/stores/001/776/325/products/papel-de-parede-non-woven-textura-desgastada-off-white1-d14bfb3a0de6beb6fc16778528871675-1024-1024.webp");
     text-align: center;
     display: flex;
     width: 100%;
@@ -73,4 +73,17 @@ footer{
         flex-direction: row;
         width: 50%;
     }
+}
+.secao-perfil, .perfil, .texto-perfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.perfil{
+    flex-direction: row;
+}
+
+.texto-perfil{
+    flex-direction: column;
 }
